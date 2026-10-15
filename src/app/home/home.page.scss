@@ -1,0 +1,22 @@
+.home {
+  display: grid;
+  min-height: 100%;
+  place-items: center;
+  padding: 24px;
+  background: var(--ion-color-light);
+}
+
+ion-card {
+  width: min(100%, 560px);
+  margin: 0;
+  border-radius: 16px;
+}
+
+ion-card-title {
+  font-size: clamp(1.35rem, 5vw, 1.75rem);
+}
+
+ion-card-content {
+  font-size: 1rem;
+  line-height: 1.6;
+}
